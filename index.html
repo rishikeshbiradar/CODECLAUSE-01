@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Creating Contact Form -->
+    <form id="contactform" action="">
+        <h1>Contact Form</h1>
+        <div>
+            <input type="text" name="FName" id="" placeholder="Enter First Name">
+            <input type="text" name="FName" id="" placeholder="Enter Last Name">
+        </div>
+        <br>
+        <div>
+            <input type="number" name="Age" id="" placeholder="Enter Age">
+            <input type="number" name="PNumber" id="" placeholder="Enter Phone Number">
+        </div>
+        <br>
+        <div>
+            <input type="email" name="FEmail" id="" placeholder="Enter Email">
+            <input type="password" name="" id="" placeholder="Enter Email Password">
+        </div>
+        <br>
+        <div>
+            <textarea name="" id="" cols="45" rows="3" placeholder="Enter Your Address"></textarea>
+        </div>
+        <br>
+        <div>
+            <textarea name="" id="" cols="45" rows="3" placeholder="Describe Your Query"></textarea>
+        </div>
+        <br>
+        <div id="showCaptcha">
+        </div>
+        <br>
+        <div>
+            <input type="text" name="" id="printCaptcha" placeholder="Enter Above Captcha">
+        </div>
+        <br>
+        <div>
+            <input type="checkbox" name="" onClick="check()" id="checkbox" placeholder="Check it now"> The Above Entered
+            Information Is Correct
+        </div>
+        <br>
+
+        <div class="formbutton">
+            <button type="submit" onClick="formSubmit()">Submit</button>
+            <button type="reset">Reset</button>
+        </div>
+        <br>
+    </form>
+
+    <!-- Footer Section -->
+    <footer>
+        <h3>Copyright Ⓒ Rushikesh Biradar 2023 | All Rights Reserved</h3>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>

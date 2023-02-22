@@ -1,0 +1,102 @@
+*
+{
+    background-color: rgb(182, 182, 236);
+}
+
+/* Contact Form */
+#contactform
+{
+    background-color: rgb(157, 157, 234);
+    width: 420px;
+    margin: auto;
+    padding: 10px;
+    border: 3px solid rgb(40, 40, 91);
+    border-radius: 5px;
+}
+/* Contact Form Heading */
+h1
+{
+    background-color: rgb(157, 157, 234);
+    font-size: 45px;
+    text-align: center;
+    font-weight: bold;
+    font-family:sans-serif;
+    margin: 15px;
+}
+/* Contact Form Div's */
+div
+{
+    background-color: rgb(157, 157, 234);
+}
+/* Contact Form Input Textarea Captcha Buttons */
+input
+{
+    background-color: rgb(157, 157, 234);
+    width: 180px;
+    height: 20px;
+    padding: 5px;
+    margin: 5px;
+    font-size: 15px;
+    border: 2px solid rgb(40, 40, 91);
+    border-radius: 3px;
+}
+textarea
+{
+    background-color: rgb(157, 157, 234);
+    width: 390px;
+    padding: 5px;
+    margin: 7px;
+    font-size: 15px;
+    border: 2px solid rgb(40, 40, 91);
+    border-radius: 5px;
+}
+#showCaptcha
+{
+    background-color: rgb(157, 157, 234);
+    width: 70px;
+    height: 20px;
+    padding: 5px;
+    margin: 5px;
+    font-size: 20px;
+    border: 2px solid rgb(40, 40, 91);
+    border-radius: 3px;
+}
+#checkbox
+{
+    width: 20px;
+}
+button
+{
+    background-color: rgb(157, 157, 234);
+    background-color: black;
+    color: white;
+    width: 100px;
+    padding:5px;
+    margin:5px;
+    text-align: center;
+    font-size: 18px;
+    border: 2px solid rgb(40, 40, 91);
+    border-radius: 5px;
+}
+.formbutton
+{
+    width: 60%;
+    margin:0px auto;
+}
+footer
+{
+    width: 530px;
+    margin: auto;
+    padding: 20px;
+    font-family:sans-serif;
+    color: black;
+    text-align: center;
+}
+@media (max-width:580px)
+{
+    footer
+    {
+        width: 390px;
+    }
+}
+       
